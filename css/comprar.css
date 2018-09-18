@@ -1,0 +1,137 @@
+
+
+@font-face {
+    font-family: titulo;
+    src: url(letras/SLC_.ttf);
+}
+@font-face {
+    font-family: cabecera;
+    src: url(letras/Modum.ttf);
+}
+
+@font-face {
+    font-family: letra;
+    src: url(letras/Modum.ttf);
+}
+@font-face {
+    font-family: nuevas;
+    src: url(letras/Alien-Encounters-Bold.ttf);
+}
+@font-face {
+    font-family: nombre;
+    src: url(letras/streetcred.ttf);
+}
+body{
+    background:black;
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+#cabecera{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px; 
+}
+#comecocos{
+    width:80%;
+    margin-left: 5%;
+}
+table{
+    width: 100%;
+}
+td{
+    
+    width: 5%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: titulo;
+}
+
+
+nav{
+    position: absolute;
+    margin-top: 6%;
+    width: 99%;
+}
+#logo_inicial{
+    width: 100.5%;
+}
+
+section{
+    position: absolute;
+    width: 60%;
+    margin-top: 40%;
+    float: left;
+}
+#foto{
+    margin-top: -25%;
+    height: 500px;    
+    width: 50px;
+}
+p{
+    color:white;
+}
+aside{
+    position: relative;
+    width: 40%;
+    margin-top: 40%;
+    float: right;
+}
+h1{
+    color: white;
+}
+#foto{
+    margin-top: -40%;
+    width: 50%;
+    margin-left: 15%;
+}
+#nombre{
+    zoom:4;
+    margin-top: -3%;
+    font-family: nombre;
+    color: red;
+    margin-top: -110%;
+    margin-left: -170%;
+}
+#descripcion,#stock,#precio{
+    font-family: letra;
+}
+#precio{
+    margin-left: -60%;
+}
+#descripcion{
+    margin-top: -65%;
+    margin-left: -70%;
+    height: 125PX;
+ 
+  
+
+}
+#stock{
+    margin-top: -30%;
+    position: absolute;
+    margin-left: 25%;
+        }
+#precio{
+margin-left: -120%;
+margin-top: -30%;
+position: absolute;
+
+}
+#comprar{
+
+width: 150PX;
+height: 150PX;
+}
+#boton{margin-top: -15%;}

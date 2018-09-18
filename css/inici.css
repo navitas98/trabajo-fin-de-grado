@@ -1,0 +1,121 @@
+@font-face {
+    font-family: titulo;
+    src: url(letras/SLC_.ttf);
+}
+@font-face {
+    font-family: cabecera;
+    src: url(letras/Modum.ttf);
+}
+@font-face {
+    font-family: pacman;
+    src: url(letras/Modum.ttf);
+}
+@font-face {
+    font-family: nuevas;
+    src: url(letras/Alien-Encounters-Bold.ttf);
+}
+@font-face {
+    font-family: comecocos;
+    src: url(letras/pacman.ttf);
+}
+body{
+    background:black;
+}
+
+
+header{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+
+}
+
+#cabecera{
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px; 
+}
+#comecocos{
+    width:80%;
+    margin-left: 5%;
+}
+table{
+    width: 100%;
+}
+td{
+    
+    width: 5%;
+
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-family: titulo;
+}
+
+
+nav{
+    position: absolute;
+    margin-top: 6%;
+    width: 99%;
+}
+#logo_inicial{
+    width: 100.5%;
+}
+
+
+section{
+    position: absolute;
+    margin-top: 25%;
+}
+#recien{
+    float: left;
+    width: 80%;
+    
+}
+#llegadas{
+    float: right;
+    width: 19%;
+}
+h4{
+    font-family: nuevas;
+    color: white;
+    zoom:4;
+}
+h5{
+    font-family: nuevas;
+    color: white;
+    zoom:4;
+}
+
+
+aside{
+    position: absolute;
+    margin-top: 60%;
+    width: 100%;
+}
+#heroe{
+    width: 450;
+    height: 450;
+    margin-left:15%; 
+}
+#clasico,#lucha{
+     width: 400;
+    height: 400;
+    margin-left: 10%;
+}
+
+
+footer{
+    position: absolute;
+    margin-top: 80%;
+    width: 100%;
+}
+#pie{
+    margin-top: 7%;
+    zoom:2;
+    font-family: pacman;
+}
