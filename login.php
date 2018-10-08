@@ -47,7 +47,7 @@
         <input type="submit" value="Login" name="aceptar">
 
 </div>
-<?php } ?>
+<?php } ?> 
   </form>
 </body>
 
